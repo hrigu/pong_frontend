@@ -1,0 +1,8 @@
+Aufgesetzt wie: https://blog.carbonfive.com/the-best-of-both-worlds-html-apps-svelte/
+
+rake webpacker:install:svelte
+
+yarn add webpacker-svelte --dev
+
+rails generate controller start index --no-assets --no-helper
+
